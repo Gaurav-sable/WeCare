@@ -20,7 +20,7 @@
   width: 100%;
   background: url('./components/bluebag.jpg') no-repeat center center / cover;
   z-index: -1;
-  margin-top: 10vh;
+  margin-top: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
