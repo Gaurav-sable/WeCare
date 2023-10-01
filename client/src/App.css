@@ -87,3 +87,9 @@
   border-radius: 12px;
   margin-bottom: 20px;
 }
+
+.Terms {
+  height: 800px;
+  width: 1455px;
+  background-image: linear-gradient(180deg, rgb(75, 117, 243) , rgb(45, 8, 88));
+}

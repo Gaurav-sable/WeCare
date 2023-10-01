@@ -13,4 +13,4 @@ app.listen(8000, () => {
     console.log('Server listening to port 8000');
 });
 
-app.get('/finalOutput', runFiles.runPython);
+app.post('/finalprediction', runFiles.runPython);

@@ -71,7 +71,8 @@ const runCpp = async () => {
 const runPython = async (req, res) => {
     const command = 'python';
     const pythonFile = ['./files/DiseasePredictor.py'];
-    const pyinp = ["High Fever","Breathlessness","Sweating"];
+    const pyinp = req.body;
+    console.log(pyinp);
     const inputString = pyinp.join(delimiter);
     try {
         const output = await Runpython(command, pythonFile, undefined, inputString);
